@@ -1,0 +1,53 @@
+.flex { 
+	display: flex; 
+}
+html, body, .wrap { 
+	height: 100%; 
+	line-height: 1; 
+}
+.wrap { 
+	width: 1024px; 
+	position: relative; 
+	margin: 0 auto; 
+	padding-top: 50px; 
+}
+body { 
+	font-weight: 400; 
+	font-size: 16px; 
+	line-height: 20px; 
+	font-family: 'Roboto'; 
+	color: #333; 
+}
+p { 
+	line-height: 20px; 
+	color: #37426f; 
+	text-align: justify; 
+}
+.tabsmenu { 
+	margin-bottom: -1px; 
+}
+.tabsmenu li { 
+	width: 120px; 
+	height: 50px; 
+	display: flex; 
+	-webkit-box-align: center; 
+	-ms-flex-align: center; 
+	align-items: center; 
+	-webkit-box-pack: center; 
+	-ms-flex-pack: center; 
+	justify-content: center; 
+	font-size: 15px; 
+	color: rgb(212, 19, 250); 
+	-webkit-user-select: none; 
+	user-select: none; 
+	cursor: pointer; }
+.tabsmenu2 .active { 
+	color: #3b99fc; 
+	border: solid 1px #3bfc7b; 
+	border-bottom-color: #fff; 
+	background: #fff; }
+.container > div { 
+	margin-bottom: 50px; 
+	padding: 20px; 
+	border: solid 1px #1fa9dc; 
+	border-radius: 0 3px 3px 3px; }
